@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "> TODO: description",
   "author": "cuantmac <cuantmac@163.com>",
-  "homepage": "",
+  "homepage": "https://github.com/cuantmac/lerna_demo#readme",
   "license": "ISC",
   "main": "lib/package-1.js",
   "directories": {
@@ -16,7 +16,14 @@
   "publishConfig": {
     "registry": "http://192.168.2.165:8560/repository/npm-publish"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cuantmac/lerna_demo.git"
+  },
   "scripts": {
     "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "bugs": {
+    "url": "https://github.com/cuantmac/lerna_demo/issues"
   }
 }
